@@ -8,6 +8,9 @@ optimizer_runs = 999999
 solc_version = "0.8.26"
 verbosity = 3
 
+[lint]
+lint_on_build = false
+
 [profile.production]
 build_info = true
 sizes = true
